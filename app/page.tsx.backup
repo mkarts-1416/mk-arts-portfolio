@@ -17,13 +17,9 @@ export default function Home() {
       <nav className="fixed left-1/2 top-5 z-50 flex w-[92%] max-w-6xl -translate-x-1/2 items-center justify-between rounded-2xl border border-white/10 bg-black/60 px-5 py-3 backdrop-blur-xl">
         <a
           href="/"
-          className="flex items-center transition-all duration-300 hover:opacity-90"
+          className="text-xl font-bold transition-all duration-300 hover:text-cyan-400 hover:drop-shadow-[0_0_12px_rgba(34,211,238,0.45)]"
         >
-          <img
-            src="/mkarts-logo.png"
-            alt="MKArts"
-            className="h-10 w-auto object-contain"
-          />
+          MK Arts<span className="text-cyan-400">.</span>
         </a>
 
         <div className="flex gap-3 text-xs text-white/70 sm:gap-5 sm:text-sm">
